@@ -2,6 +2,7 @@ version: '3.0'
 
 services:
   web:
+    image: vhphan/magento
     build: web
     volumes:
       - ./source:/var/www/html
